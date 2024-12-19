@@ -1,0 +1,25 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>BDU</title>
+</head>
+<body>
+	
+
+ <p>@ViewData["name"] @ViewData["surname"]</p> 
+
+  <ol>
+	 @foreach (var item in (List<string>)ViewData["Students"])
+		{
+			<li>@item</li>
+		}
+		
+</ol>
+
+
+
+
+</body>
+</html> 
